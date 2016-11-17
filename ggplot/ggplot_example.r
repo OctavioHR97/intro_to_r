@@ -2,7 +2,6 @@ library(ggplot2)
 library(data.table)
 library(dplyr)
 
-
 load("suicides.rdata")
 all_suicides <- copy(suicides) ## GIVE EXAMPLE OF POINTERS, with actual people and actual pointing.
 suicides <- suicides %>% 
